@@ -1,0 +1,9 @@
+[project]
+name = "chamimesh"
+version = "0.1.0"
+description = "Modelo inicial de cobertura y asignación de equipos para TEL343"
+requires-python = ">=3.10"
+dependencies = [
+    "pulp==2.9.0",
+    "highspy>=1.11,<2",
+]
